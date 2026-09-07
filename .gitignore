@@ -1,3 +1,5 @@
+# copied from twaibrain
+
 # CUSTOM IGNORES HERE:
 # lightning logs
 #trustworthai/utils/fitting_and_inference/run_scripts/lightning_logs/*

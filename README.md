@@ -1,7 +1,7 @@
 # twaibrainSynthNormWMHSeg
 WMH segmentation model trained with SynthNorm. Instructions:
 
-1) create conda environment
+1) create conda environment (other environment managers can be used instead). For more information in installing (mini)conda see here: https://continuumio-docs.readthedocs-hosted.com/miniconda/
 ```
 conda create env -n segmodel python=3.12
 
@@ -34,8 +34,13 @@ Specify where you want the resulting segmentations saved using the `-o` flag.
 ```
 python run_model.py -i <image_filepaths.csv> --imgfolder optional/folder/where/images/are -o output/folder/ --verbose --model_name small_ssnens --models_folder <e.g path/to/small_ssnens_weights/>
 
-
 ```
+
+The model will output 4 files:
+- <image_name>_<model_name>_wmhseg.nii.gz  : binarised WMH segmentation
+- <image_name>_<model_name>_wmhprob.nii.gz : soft WMH probabilities
+- <image_name>_<model_name>_samples.nii.gz : 12 plausible binarised segmentations, reflects the uncertainty in the segmentation
+- <image_name>_<model_name>_uqimg.nii.gz   : uncertianty map (predictive entropy of the model ensemble)
 
 example run command on my machine:
 

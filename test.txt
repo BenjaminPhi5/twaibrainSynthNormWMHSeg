@@ -1,0 +1,2 @@
+python run_model.py -i eval_test_filenames.csv --imgfolder /run/media/benphilps/NVMEBenSpare/thesis_work/testing_images/ -o /run/media/benphilps/NVMEBenSpare/thesis_work/testing_outputs --verbose --model_name large_ssnens --models_folder /run/media/benphilps/NVMEBenSpare/thesis_work/chapter_5_checkpoints/V4_training_UQ_scripts_model_checkpoints -z
+

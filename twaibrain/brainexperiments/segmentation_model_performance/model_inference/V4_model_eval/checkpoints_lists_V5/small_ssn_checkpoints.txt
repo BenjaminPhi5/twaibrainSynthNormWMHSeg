@@ -1,0 +1,1 @@
+small_ssn_high_clamp_sgd_ens2/epoch=788-step=72588.ckpt,

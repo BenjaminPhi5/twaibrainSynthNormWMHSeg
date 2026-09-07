@@ -1,0 +1,1 @@
+ssn_high_clamp_sgd_ens0/epoch=654-step=60260.ckpt,ssn_high_clamp_sgd_ens1/epoch=704-step=64860.ckpt,ssn_high_clamp_sgd_ens2/epoch=739-step=68080.ckpt,ssn_high_clamp_sgd_ens3/epoch=681-step=62744.ckpt,ssn_high_clamp_sgd_ens4/epoch=441-step=40664.ckpt,ssn_high_clamp_sgd_ens5/epoch=572-step=52716.ckpt,
